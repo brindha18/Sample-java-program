@@ -6,14 +6,14 @@ public class PrimeFinder {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter beginning number: ");
-		int begin=sc.nextInt();
+		int begin=1;
 		
 		if(begin==1)
 		{
 			begin=2;
 		}
 		System.out.println("Enter the end number:  ");
-		int end=sc.nextInt();
+		int end=100;
 		System.out.println("Prime numbers between "+begin+" and "+end+" are:");
 		System.out.println(findPrime(begin,end));	
 
