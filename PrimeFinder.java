@@ -6,7 +6,7 @@ public class PrimeFinder {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter beginning number: ");
-		int begin=1;
+		int begin=sc.nextInt();
 		
 		if(begin==1)
 		{
